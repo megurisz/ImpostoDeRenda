@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="nav-top">
+            <div>
+                <img src="./imgs/Logo.svg">
+            </div>
+            <div class="search">
+                <input type="text" name="search" id="input-search">
+                <button class="btn-search" id="btn-search" onclick="search()"><img src="./imgs/search.svg"></button>
+            </div>
+        </nav>
+        <nav class="nav-bottom">
+            <div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="./calc.php">Calculate</a></li>
+                    <li class="nav-item"><a href="#questions">Questions</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="text-home">
+                <h2>Sua solução aqui</h2>
+                <p>Com apenas poucas informações você pode calcular o seu Imposto de Renda<strong><a href="./calc.php"> Clique aqui</a></strong></p>
+            </div>
+            <div>
+                <img src="./imgs/banner.svg" alt="income-tax">
+            </div>
+        </section>
+        <section id="about">
+            <img src="./imgs/Logo.svg">
+            <div class="text-home">
+                <p>A DFP é uma empresa fictícia formada por 3 alunos do 2ºDS-A da Etec Parque da Juventude. Este site portanto se trata de um trabalho escolar e faz parte do nosso portifólio, tendo como objetivo principal transparecer os resultados dos nossos estudos das tecnologias de desenvolvimento FrontEnd. O site em si traz a funcionalidade de calcular o imposto de renda simples a partir apenas de seu salário bruto, e mostrar a taxa de imposto que será cobrada em cima dele. Para ver esse, e outros pojetos feitos por nós <strong><a target="_blank" href="https://vinifajan.github.io/FP-Store/">clique aqui!</a></p></strong>
+            </div>
+        </section>
+        <section id="questions">
+            <div>
+                <h2>Dúvidas frequentes</h2>
+            </div>
+            <div class="questions-list">
+                <ol>
+                    <li>
+                        <p><strong>Posso atualizar o valor do meu imóvel?</strong></p>
+                        <p>R: Não. Deve-se informar sempre o valor de compra do bem, mesmo que ele tenha se valorizado ao longo do tempo.</p>
+                    </li>
+                    <li>
+                        <p><strong>Onde informo meu financiamento?</strong></p>
+                        <p>R: As parcelas já pagas e a dívida a quitar devem ser preenchidas em fichas separadas da declaração.</p>
+                    </li>
+                    <li>
+                        <p><strong>Quais gastos abatem Imposto de Renda?</strong></p>
+                        <p>R: A lista é extensa e vai além de despesas básicas com saúde e instrução. Pagamento de corretagem de aluguel e previdência privada estão entre os itens que podem ser abatidos. Já clareamento dental, uniforme escolar e cursos de idiomas estão fora da lista.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="#home"><img class="footer-logo" src="./imgs/Logo.svg"></a>
+        </div>
+        <div>
+            Follow me
+            <div class="icons">
+                <span class="social-media"><img src="./imgs/github.svg"><a target="_blank" href="https://github.com/ViniFajan">GitHub</a></span>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
